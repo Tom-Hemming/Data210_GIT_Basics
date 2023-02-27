@@ -26,3 +26,10 @@ git push (push to github)
 Change Branch
 
 git push --set-upstream origin "branchname"
+
+
+Alternatives to GIT:
+
+Azure Devops Server - closed source focussed rather than open focus for Git, Git more user friendly.
+
+Mercurial - cant change history, potentially more tamper proof than git
