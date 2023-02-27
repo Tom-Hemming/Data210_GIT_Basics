@@ -1,12 +1,23 @@
+Key terms:
+
 Absolute path- path from home 
 
 Relative path- path from where you are
+Commands:
 
 ls- show all directories and files
 
+After using ls item colour denotes:
+
 White- file, blue / directory
 
-ls -a hidden files/directories
+Variations on ls: 
+
+ls -a reveals hidden files/directories
+
+ls -l reveals permissions
+
+where R/w/x = read write execute
 
 Cd [dir] to access dir (change directory)
 
@@ -14,11 +25,7 @@ cd .. move up a level
 
 cd ../.. Move up 2 levels
 
-cd / root
-
-ls -l permissions
-
-Rwx read write execute
+cd / to access root
 
 mkdir  [name] make directory
 
@@ -38,5 +45,7 @@ Rm -rf [name] do not enter this, remove a folder and everything inside it, recur
 
 Pwd print working directory, absolute path
 
-Grep search
+Grep is used to search files
+
+grep "text here" to search files in current directory for text
 
