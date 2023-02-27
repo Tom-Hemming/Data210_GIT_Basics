@@ -13,39 +13,37 @@ White- file, blue / directory
 
 Variations on ls: 
 
-ls -a reveals hidden files/directories
+ls -a *reveals hidden files/directories*
 
-ls -l reveals permissions
+ls -l *reveals permissions, where R/w/x = read write execute*
 
-where R/w/x = read write execute
+Cd [dir] *to access dir (change directory)*
 
-Cd [dir] to access dir (change directory)
+cd .. *move up a level*
 
-cd .. move up a level
+cd ../.. *move up 2 levels*
 
-cd ../.. Move up 2 levels
+cd / *to access root*
 
-cd / to access root
+mkdir  [name] *make directory*
 
-mkdir  [name] make directory
+nano [filename].txt *to access and edit or create an edit a text file*
 
-nano [filename].txt
+Ctrl+x, y, enter *to save file after creating with above command*
 
-Ctrl x y enter
+Cat [filename].txt *print to terminal the contents of a file*
 
-Cat [filename].txt read
+Cp file.txt file2.txt *copy file.txt as file2.txt*
 
-Cp file.txt file2.txt
+Mv [file] [directory] *move this file to this directory*
 
-Mv [file] move
+Rm [file] *remove this file*
 
-Rm is remove file
+Rm -rf [directory] *do not enter this, remove a folder and everything inside it, recursive and forced.*
 
-Rm -rf [name] do not enter this, remove a folder and everything inside it, recursive and forced.
-
-Pwd print working directory, absolute path
+Pwd *print working directory to terminal, absolute path*
 
 Grep is used to search files
 
-grep "text here" to search files in current directory for text
+grep "text here" *to search files in current directory for text*
 
